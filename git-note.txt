@@ -1,0 +1,64 @@
+Git Command
+-------------
+to initialise git->git init
+---------------------
+to look branch->git branch
+------------------------
+to look status what files change->git status
+-------------------------
+first time using git->$ git config --global user.name "Your name here"
+$ git config --global user.email "your_email@example.com"
+------------------------------------------------
+to put all file->git add [filename], git add .  (for all)
+------------------------------------------
+to name for today part->git commit -m "first init"
+----------------------------
+to unstage(pyin htr tr ko nauk pyn sote tr->git restore --staged <file>
+---------------------------------------------
+to back to previous stage->git restore filename(can only do undo)
+----------------------------
+to undo file ->git clean -f / to undo,deltete the folder->git clean -fd
+-----------------------------------------------------------
+if errors we can go back to that stage->git checkout name(commit ka name)
+---------------------------------------------
+if go back to master->git checkout master
+-----------------------------
+to look branch->git branch
+-----------------------------------------
+to create branch->git branch branchname
+--------------------------------------------
+to go to branch->git checkout branchname
+-----------------------------------
+pushing->git push -u origin dev
+--------------------------------------
+online pw mr shi tk dev branch ka offline pw yauk la ag->git pull origin dev
+-----------------------------------
+to delete branch->git branch -D bname
+------------
+online pw mr shi tr lan show->git fetch origin
+----------------------
+How to work with Team
+============================
+git branch dev1/edit-home
+------------------------------
+git checkout -b dev/homepage->git branch git checkout
+--------------------
+update from online->git pull origin bname
+-----------------
+git log --oneline -n 3
+---------------------------
+delete commit->git reset --hard code
+------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
